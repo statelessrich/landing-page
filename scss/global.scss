@@ -1,0 +1,171 @@
+
+html,
+body {
+  font-family: "Exo", sans-serif;
+  overflow-x: hidden;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  line-height: 26px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.red-text {
+  color: $red;
+}
+
+.red-bg {
+  background-color: $red;
+}
+
+.white-bg {
+  background-color: $white;
+}
+
+.gray-bg {
+  background-color: #f6f5f3;
+}
+
+.btn {
+  width: 190px;
+  height: 50px;
+  border-color: $red;
+}
+
+.play-btn {
+  margin-top: 39px;
+}
+
+.try-btn {
+  margin-top: 39px;
+}
+
+.footnote {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.section {
+  width: 100%;
+}
+
+.hero {
+  height: 813px;
+  background: url("../img/hero.png");
+  background-position: center;
+  background-size: cover;
+
+  .hero-content {
+    margin-top: 206px;
+  }
+}
+
+.section-2 {
+  height: 722px;
+  background: url("../img/section-2-bg.png");
+  background-position: center;
+  background-size: cover;
+
+  .section-content {
+    width: 594px;
+    margin-left: 148px;
+    padding-top: 190px;
+  }
+}
+
+.section-3 {
+  height: 676px;
+  background: url("../img/section-3-bg.png");
+  background-position: center;
+  background-size: cover;
+
+  .section-content {
+    padding-top: 145px;
+  }
+
+  .features {
+    padding-top: 90px;
+
+    .feature {
+      display: inline-block;
+      width: 360px;
+      margin-right: 23px;
+      margin-left: 23px;
+
+      .feature-title {
+        font-size: 22px;
+        padding-top: 35px;
+      }
+
+      p {
+        padding-top: 20px;
+      }
+    }
+  }
+}
+
+.section-4 {
+  height: 466px;
+  background-color: $blue;
+  color: $white;
+
+  .section-content {
+    padding-top: 95px;
+  }
+
+  .form {
+    margin-top: 95px;
+
+    .row {
+      margin: 0 120px;
+    }
+
+    .form-footnote {
+      margin-top: 50px;
+    }
+  }
+
+  input {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: $white;
+    width: 260px;
+    height: 48px;
+  }
+
+  .try-btn {
+    margin-top: 0;
+    width: 260px;
+    height: 48px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Chrome */
+    color: $white;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    color: $white;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $white;
+    opacity: 1;
+  }
+  :-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: $white;
+    opacity: 1;
+  }
+}
+
+.subheading {
+  letter-spacing: 3.2px;
+  margin-bottom: 0;
+}
