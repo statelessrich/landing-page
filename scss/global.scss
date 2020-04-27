@@ -46,11 +46,22 @@ h2 {
 
 .play-btn {
   margin-top: 35px;
+  cursor: pointer;
+  transition: transform 0.1s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
 .contact-btn {
   margin-top: 37px;
   letter-spacing: 3.2px;
+
+  &:hover {
+    background-color: darken($red, 10%);
+    border-color: darken($red, 10%);
+  }
 }
 
 .footnote {
