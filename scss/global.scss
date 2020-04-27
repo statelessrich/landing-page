@@ -55,12 +55,19 @@ h2 {
 }
 
 .contact-btn {
+  color: $white;
   margin-top: 37px;
   letter-spacing: 3.2px;
 
   &:hover {
     background-color: darken($red, 10%);
     border-color: darken($red, 10%);
+    color: $white;
+  }
+
+  &:active {
+    background-color: $red;
+    border-color: $red;
   }
 }
 
